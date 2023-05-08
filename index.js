@@ -10,9 +10,9 @@ app.get('/rota2', function(req, res) {
 });
 
 app.get('/rota3', function(req, res) {
-  res.send('<h1>Ao trabalho do George</h1>');
+  res.send('<h1>Ao trabalho do George :)</h1>');
 });
 
 app.listen(3000, function() {
-  console.log('Servidor iniciado na porta 3000!!!');
+  console.log('Servidor iniciado na porta 3000');
 });
